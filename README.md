@@ -14,7 +14,7 @@ The message box has the following custom features:
 
 :white_check_mark: Message box can contain checkbook
 
-:white_check_mark: Custom names for buttons
+:white_check_mark: Custom names for buttons (1-3 buttons)
 
 :white_check_mark: Utilities to copy message box text or entire window as image to clipboard 
 
