@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">-->
+
+ <Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    <TargetFrameworks>;net472;net48</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+    <ProjectTypeGuids>{0ED6E862-BD5D-4FBB-A421-70DCE06D8859};{7332AA71-55DD-49B5-980A-73AE5A941ADF}</ProjectTypeGuids>
+    <Product>Custom Wpf Boxes</Product>
+    <AssemblyTitle>BespokeFusion</AssemblyTitle>
+    <ExtrasEnableWpfProjectSetup>true</ExtrasEnableWpfProjectSetup>
+    <PackageId>CustomWpfBoxes</PackageId>
+    <Description>Custom WPF message and input box.</Description>
+    <Copyright>Copyright © 2023 Jaroslav Vatral</Copyright>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.2</Version>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <RepositoryUrl>https://github.com/Coltherion/CustomWpfBoxes</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Coltherion/CustomWpfBoxes</PackageProjectUrl>
+      <RepositoryType>git</RepositoryType>
+      <PackageTags>Message Box, Input Box, WPF, UI</PackageTags>
+    <Authors>Jaroslav Vatral</Authors>
+    <Company></Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon></PackageIcon>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net472|AnyCPU'">
+      <WarningLevel>0</WarningLevel>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net472|AnyCPU'">
+      <Optimize>False</Optimize>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net48|AnyCPU'">
+      <Optimize>False</Optimize>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Icons\error.png" />
+      <None Remove="Icons\information.png" />
+      <None Remove="Icons\message.png" />
+      <None Remove="Icons\question.png" />
+      <None Remove="Icons\warning.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\README.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="System.Windows.Forms" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="Icons\error.png">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Icons\information.png">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Icons\message.png">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Icons\question.png">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Icons\warning.png">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+</Project>
