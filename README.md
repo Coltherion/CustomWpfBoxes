@@ -62,7 +62,7 @@ MessageBoxResult result = outcome.Result;
 if (result == MessageBoxResult.OK);
 ```
 
-![Default Message](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/master/Screenshots/CustomButtonsMessageBox.png)
+![Default Message](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/master/Screenshots/DefaultMessageBox.png)
 
 > Using a message box with checkbox
 
