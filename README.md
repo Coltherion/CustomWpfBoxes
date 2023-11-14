@@ -62,7 +62,7 @@ MessageBoxResult result = outcome.Result;
 if (result == MessageBoxResult.OK);
 ```
 
-![Default Message](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/main/Screenshots/CustomButtonsMessageBox.png)
+![Default Message](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/master/Screenshots/CustomButtonsMessageBox.png)
 
 > Using a message box with checkbox
 
@@ -72,7 +72,7 @@ MessageBoxCheckbox checkbox = outcome.Checkbox;
 if (checkbox == MessageBoxCheckbox.Checked)
 ```
 
-![Message box with checkbox](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/main/Screenshots/CheckboxMessageBox.png)
+![Message box with checkbox](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/master/Screenshots/CheckboxMessageBox.png)
 
 > Using a message with custom buttons (1-3 custom bottons)
 
@@ -83,7 +83,7 @@ var outcome = MessageBox.Show("This is a message.", "Title", button1: "Help", bu
 if (outcome.Result == MessageBoxResult.Button1);
 ```
 
-![Message box with custom buttons](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/main/Screenshots/CustomButtonsMessageBox.png)
+![Message box with custom buttons](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/master/Screenshots/CustomButtonsMessageBox.png)
 
 > Using a text input box
 
@@ -91,7 +91,7 @@ if (outcome.Result == MessageBoxResult.Button1);
 string result = InputBox.Show("Plese enter a name:", "Input Box", string.Empty, InputBoxOption.SingleLine, InputBoxExtraButton.All);
 ```
 
-![Text input box](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/main/Screenshots/TextInputBox.png)
+![Text input box](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/master/Screenshots/TextInputBox.png)
 
 > Using combobox input box
 
@@ -99,7 +99,7 @@ string result = InputBox.Show("Plese enter a name:", "Input Box", string.Empty, 
 var result = InputBox.Show("Please choose item:", new string[] { "Item1", "Item2", "Item3" });
 ```
 
-![Combobox input box](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/main/Screenshots/ComboboxInputBox.png)
+![Combobox input box](https://raw.githubusercontent.com/Coltherion/CustomWpfBoxes/master/Screenshots/ComboboxInputBox.png)
 
 ## :sparkle: Sources used
 
